@@ -14,4 +14,6 @@ One of the boards was the "Main" controller and this board was responsible to ch
 
 The other board was listening for MQTT messages from the main board, and if it got one, we turned this light (Pedestrian light) to red. Then, it sends a "Ack" to the main board so that the main board knows that the 2nd board is linked up sucessfully.
 
+NOTE: Main is for the Main board, Main2 is for the 2nd board and is the main executable for that 2nd board
+
 [Live Demo](https://www.youtube.com/shorts/s_3gY6GyE5s)
